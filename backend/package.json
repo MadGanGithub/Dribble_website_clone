@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "cross-env PORT=4100 nodemon index.js",
-    "build": "node index.js"
+    "build": "npm i"
   },
   "keywords": [],
   "author": "",
