@@ -37,7 +37,7 @@ const Profile = () => {
     };
 
     await axios
-      .post("http://localhost:4100/signup", details)
+      .post("https://dribble-website-clone-backend.onrender.com/signup", details)
       .then((response) => {
         setLoading(false);
         toast.success("Mail has been sent successfully");
