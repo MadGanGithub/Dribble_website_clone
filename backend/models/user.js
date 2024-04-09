@@ -1,6 +1,6 @@
 import { Sequelize } from "sequelize";
 
-const sequelize = new Sequelize('postgresql://database_owner:yPgQHutVJw76@ep-muddy-rain-a5pz00ds.us-east-2.aws.neon.tech/database?sslmode=require');
+const sequelize = new Sequelize(`postgresql://database_owner:${process.env.DATABASE_PASSWORD}@ep-muddy-rain-a5pz00ds.us-east-2.aws.neon.tech/database?sslmode=require`);
 
 const User = sequelize.define(
   "User",
