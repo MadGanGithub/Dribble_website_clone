@@ -16,7 +16,7 @@ cloudinary.config({
 //cors 
 app.use(cors({
     credentials:true,
-    origin:"http://localhost:3000"
+    origin:"https://aeonaxydribbble.netlify.app"
 }))
 
 //This converts request body to json 
